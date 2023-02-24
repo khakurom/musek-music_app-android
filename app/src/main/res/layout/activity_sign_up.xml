@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_layout_bottom_play_music"
+    android:layout_height="match_parent"
+    tools:context=".activity.login.SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:fontFamily="@font/lobster"
+        android:text="Sign up "/>
+    <EditText
+        android:id="@+id/ed_phoneNumber"
+        android:inputType="number"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:hint="Phone number"
+        android:paddingStart="30dp"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/ed_password"
+        android:inputType="textPassword"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:hint="Password"
+        android:paddingStart="30dp"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/ed_confirmPassword"
+        android:inputType="textPassword"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:hint="Confirm password"
+        android:paddingStart="30dp"
+        android:drawablePadding="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show_error"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/red"
+        android:layout_marginLeft="30dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:id="@+id/bt_signUp"
+        android:layout_gravity="center"
+        android:text="Sign up"
+        android:background="@drawable/custom_button"/>
+
+
+
+</LinearLayout>

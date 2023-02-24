@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "201405257830",
+    "project_id": "musek-25333",
+    "storage_bucket": "musek-25333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201405257830:android:8057f614b07fafe60f35a7",
+        "android_client_info": {
+          "package_name": "com.example.musek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201405257830-qsu9ipbibu7ubu5e74rfce538tttb43v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv3hRe19UBiSXqOmymaYkayXnVmfLtXh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201405257830-qsu9ipbibu7ubu5e74rfce538tttb43v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

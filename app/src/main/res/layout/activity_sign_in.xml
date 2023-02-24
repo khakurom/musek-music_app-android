@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_layout_bottom_play_music"
+    android:layout_height="match_parent"
+    tools:context=".activity.login.SignInActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:fontFamily="@font/lobster"
+        android:text="Welcome! "/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/ed_phoneNumber"
+            android:inputType="number"
+            android:layout_width="350dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_input"
+            android:hint="Phone number"
+            android:paddingStart="30dp"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="350dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_input"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:paddingStart="30dp"
+            android:drawablePadding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_forgot_password"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="23dp"
+            android:text="Forgot password?"
+            android:layout_gravity="right"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_show_error"
+            android:textSize="15sp"
+            android:textColor="@color/red"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:id="@+id/bt_signIn"
+            android:layout_gravity="center"
+            android:text="Sign in"
+            android:background="@drawable/custom_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
